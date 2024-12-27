@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weapon Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #f39c12;
+        }
+
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .weapon-card {
+            background-color: #222;
+            border: 1px solid #333;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .weapon-card:hover {
+            transform: scale(1.05);
+        }
+
+        .weapon-card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .weapon-card h3 {
+            margin: 10px 0;
+        }
+
+        .weapon-card p {
+            font-size: 14px;
+            color: #bbb;
+        }
+
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Weapon Store</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="weapon-card">
+            <img src=https://cdn1.epicgames.com/ue/product/Screenshot/screenshot005-1920x1080-bc6e318fd4f514e8a373463ff0431238.png?resize=1&w=1600 alt="Weapon Image">
+            <h3>Sword</h3>
+            <p>A finely crafted sword for close combat.</p>
+        </div>
+        <div class="weapon-card">
+            <img src=https://www.kindpng.com/picc/m/545-5450130_crossbow-hd-png-download.png alt="Weapon Image">
+            <h3>Crossbow</h3>
+            <p>Perfect for ranged attacks with precision.</p>
+        </div>
+        <div class="weapon-card">
+            <img src=https://tse4.mm.bing.net/th?id=OIP.Wk2JKRj1Qoe0pCgr9kkjngHaHa&pid=Api&P=0&h=180 alt="Weapon Image">
+            <h3>Shield</h3>
+            <p>Defend yourself with this durable shield.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Weapon Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
